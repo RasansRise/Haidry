@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
 <link rel="shortcut icon" href="assets/images/logo.png">
-
+<script src="https://kit.fontawesome.com/1a11e246e6.js" crossorigin="anonymous"></script>
 <!-- Core Style Sheets -->
 <link rel="stylesheet" href="assets/css/master.css">
 <!-- Responsive Style Sheets -->
@@ -22,6 +22,9 @@
   *{
     font-family: "Cairo", sans-serif !important;
   }
+  i{
+    font-family: "Font Awesome 6 Free" !important;
+  }
   .rtl{
     direction: rtl;
   }
@@ -31,6 +34,11 @@
     text-align: center;
     flex-wrap: wrap;
   }
+  .navbar-collapse.collapse{
+    height: 100% !important;
+    display: flex !important;
+    align-items: center;
+}
 </style>
 </head>
 <body>
@@ -77,7 +85,11 @@
       <div class="collapse navbar-collapse" id="navbar-menu">
         <ul class="nav navbar-nav navbar-center" data-in="fadeIn" data-out="fadeOut">
           <li><a class="page-scroll" href="#about">عن الشركه</a></li>
-          <li><a class="page-scroll" href="#works">اعمالنا</a></li>
+          
+          <li><a class="page-scroll" href="#services">مجالات الشركة </a></li>
+
+          <li><a class="page-scroll" href="#work">اعمالنا</a></li>
+          
           <li><a class="page-scroll" href="#clients">شركاتنا</a></li>
 
           <li><a class="page-scroll" href="#contact">تواصل معنا</a></li>
@@ -265,53 +277,93 @@
     </div>
   </div>
   <!--== Hero Slider End ==-->
+  <!--== Who We Are Start ==-->
+  <section class="xs-pb-100" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 centerize-col text-center">
+          <div class="section-title">
+            <h2 class="raleway-font default-color">تعرف علي </h2>
+            <hr class="center_line default-bg">
+            <h1 class="raleway-font   ">شركة حمد بدر الحيدري وأبناؤه المحدودة</h1>
+            
+          </div>
+        </div>
+      </div>
+      <p class="intro text-center">شركة رائدة في مجال عملها منذ اكثر من 40 عام وتعمل في عدة مجالات منها تجهيز المطابخ بأفضل أنواع الأخشاب المستوردة , حيث تتميز الشركة بجلب احدث الألواح الخشبية واكثرها جودة وتقوم بتصنيعها بأحدث طرق التصنيع بالمصنع الخاص بالشركة المتواجد في مدينة جدة والذي يضم فريق عمل من النخبة وهم مختصين بصناعة المطابخ وذلك لتقديم عمل بمستوى مهني واحترافي يليق بعملاء الشركة .. <b>الحيدري تضمن لكم خدمة مرضيه دائما وأسعار   تنافسية  </b></p>
 
-  <!--== About Company Start ==-->
-  <section class="grey-bg xs-pb-60" id="about">
-    <div class="col-md-6 col-sm-6 bg-flex bg-flex-left">
-      <div class="bg-flex-holder bg-flex-cover" style="background-image: url(assets/images/AS\ 297\ .jpeg);">
-        <div class="video-box_overlay">
-          <div class="center-layout">
-          <div class="v-align-middle"> <a class="popup-youtube" href="https://www.youtube.com/watch?v=sU3FkzUKHXU">
-            <div class="play-button"><i class="tr-icon ion-android-arrow-dropright"></i></div>
-            </a> </div>
+
+    </div>
+  </section>
+
+  <section  style="padding-top:0px;" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 centerize-col text-center">
+          <div class="section-title">
+            <h2 class="raleway-font default-color">مجالات الشركة</h2>
+            <hr class="center_line default-bg">            
+          </div>
+        </div>
+      </div>
+      <div class="row mt-50">
+        <div class="col-md-4 col-sm-4 col-xs-12">
+         <div class="feature-box text-center xs-mb-30 feature-box-default-bg center-feature">
+          <i class="fa-solid fa-utensils"></i>
+          	<h4 class="mt-0 font-600">تجهيز المطاعم والكافيهات</h4>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+         <div class="feature-box text-center xs-mb-30 feature-box-default-bg center-feature">
+          <i class="fa-solid fa-kitchen-set"></i>
+          <h4 class="mt-0 font-600">صناعة المطابخ الخشبية</h4>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+         <div class="feature-box text-center feature-box-default-bg center-feature">
+          <i class="fa-solid fa-fire-burner"></i>          
+          <h4 class="mt-0 font-600">أجهزة المطابخ</h4>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+         <div class="feature-box text-center feature-box-default-bg center-feature">
+          <i class="fa-solid fa-shirt"></i>
+          <h4 class="mt-0 font-600">خزائن الملابس</h4>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+         <div class="feature-box text-center feature-box-default-bg center-feature">
+          <i class="fa-solid fa-sink"></i>
+          <h4 class="mt-0 font-600">إكسسوارات المطابخ</h4>
           </div>
         </div>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="col-md-6 col-sm-6 col-md-offset-6 col-sm-offset-6">
-        <div class="col-inner spacer text-right">
-          <h2 class="raleway-font mt-0 font-20px xs-font-17px default-color">تعرف علي </h2>
-          <h1 class="raleway-font mt-0 font-50px font-600 xs-font-27px">شركة حمد بدر الحيدري وأبناؤه المحدودة</h1>
-          <p class="mt-30 intro">شركة رائدة في مجال عملها منذ اكثر من 40 عام وتعمل في عدة مجالات منها تجهيز المطابخ بأفضل أنواع الأخشاب المستوردة , حيث تتميز الشركة بجلب احدث الألواح الخشبية واكثرها جودة وتقوم بتصنيعها بأحدث طرق التصنيع بالمصنع الخاص بالشركة المتواجد في مدينة جدة والذي يضم فريق عمل من النخبة وهم مختصين بصناعة المطابخ وذلك لتقديم عمل بمستوى مهني واحترافي يليق بعملاء الشركة .. <b>الحيدري تضمن لكم خدمة مرضيه دائما وأسعار   تنافسية  </b></p>
-            <div class="row">
-              
-              <div class="col-md-6">
-                  <h3>مجالات الشركة</h3>
-                  <ul class="rtl">
-                    <li>تجهيز المطاعم والكافيهات</li>
-                    <li>صناعة المطابخ الخشبية</li>
-                    <li>إكسسوارات المطابخ</li>
-                    <li>أجهزة المطابخ</li>
-                    <li>خزائن الملابس</li>
-                  </ul>
-              </div>
-              <div class="col-md-6">
-                <h3>اقسام الشركة</h3>
-                <p class="rtl">
-                   لشركة الحيدري قسم خاص بإكسسوارات المطابخ حيث تقوم بالاستيراد من أفضل العلامات التجارية الخارجية حول العالم والتي تتميز بالجودة العالية وهي أول من عمل في هذا المجال.
-                  <br>
-                   لشركة الحيدري أيضا قسم خاص بتجهيز المطاعم والكافيهات من الكراسي وأسطح الطاولات والقواعد  كما لشركة الحيدري قسم يعمل على تجهيز الخزائن بأحدث أنواع الاخشاب المستوردة وبتصميم يعبر عن أسلوبك الخاص
-                </p>
+  </section>
+  <!--== Who We Are End ==-->
+   <!--== Video Start ==-->
+   <section class="parallax-bg fixed-bg sm-pb-80 sm-pt-80" data-parallax-bg-image="assets/images/slides/95.jpg" data-parallax-speed="0.5" data-parallax-direction="up">
+
+    <div class="parallax-overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="display-table col-md-8 col-md-offset-2 col-sm-12">
+          <div class="v-align-middle text-center">
+            <div class="white-color text-center">
+              <h1 class="font-700 font-60px line-height-60 xs-font-40px xs-line-height-50 sm-font-60px sm-line-height-70 play-font">اقسام الشركة</h1>
+              <hr class="center_line default-bg">
+              <p>
+                لشركة الحيدري قسم خاص بإكسسوارات المطابخ حيث تقوم بالاستيراد من أفضل العلامات التجارية الخارجية حول العالم والتي تتميز بالجودة العالية وهي أول من عمل في هذا المجال.
+                لشركة الحيدري أيضا قسم خاص بتجهيز المطاعم والكافيهات من الكراسي وأسطح الطاولات والقواعد كما لشركة الحيدري قسم يعمل على تجهيز الخزائن بأحدث أنواع الاخشاب المستوردة وبتصميم يعبر عن أسلوبك الخاص              
+              </p>
+
             </div>
-            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <!--== About Company End ==-->
-
+  <!--== Video End ==-->
 
   <!--== Portfolio Start ==-->
   <section class="grey-bg pb-0" id="work">

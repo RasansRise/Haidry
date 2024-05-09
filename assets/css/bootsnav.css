@@ -99,7 +99,7 @@ nav.navbar.bootsnav ul.nav > li > a{
     text-transform: uppercase;
 }
 
-nav.navbar.bootsnav ul.nav > li > a:hover{color: #d11141;}
+nav.navbar.bootsnav ul.nav > li > a:hover{color: #1f76b6;}
 
 nav.navbar.bootsnav ul.nav > li > a.active{background-color:#fff;color:#fff;}
 
@@ -495,7 +495,7 @@ body{
     font-size: 25px;
 }
 
-.side a:hover.close-side {color:#d11141;}
+.side a:hover.close-side {color:#1f76b6;}
 
 .side .logo-side{
     float: left;
@@ -605,7 +605,7 @@ body{
 
 .side .widget ul.link li a:focus,
 .side .widget ul.link li a:hover{
-    color: #d11141;
+    color: #1f76b6;
     text-decoration: none;
 }
 
@@ -725,7 +725,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
 
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover,
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover{
-        background-color:#d11141;
+        background-color:#1f76b6;
 		    color:#fff;
     }
 
@@ -885,7 +885,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     nav.navbar.bootsnav.navbar-transparent.dark ul.nav > li > a:hover,
     nav.navbar.bootsnav.no-background.dark ul.nav > li > a:hover
 	         {
-        color: #d11141;
+        color: #1f76b6;
     }
 
     nav.navbar.bootsnav.navbar-fixed.navbar-transparent .logo-scrolled,

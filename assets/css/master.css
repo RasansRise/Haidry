@@ -159,7 +159,9 @@ hr.center_line{width:80px;}
 .text-decoration-underline{text-decoration: underline;}
 .text-decoration-none{text-decoration: none;}
 .line-trough{text-decoration: line-through;}
-
+.brand-logo{
+  padding:20px 0px;
+}
 .text-animation {
   display: inline;
   text-indent: 8px;
